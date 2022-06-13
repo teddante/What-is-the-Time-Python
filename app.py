@@ -4,7 +4,7 @@ import datetime
 print('Time to get the time')
 
 now = datetime.datetime.utcnow()
-nowformated = now.strftime("%Y.%m.%d.%H.%M.%S")
+nowformated = now.strftime("%Y.%m.%d.%H.%M")
 
 # Print the current time in UTC format to the console
 print(nowformated)
